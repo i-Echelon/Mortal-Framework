@@ -46,9 +46,9 @@ mod:log(string.format("[Mortal Framework v%s] All Modules loaded successfully.",
 -- ──────────────────────────────────────────────────────────────────────────
 -- = OVERRIDES
 -- =============
-local SPEED_HACK           = true
+local SPEED_HACK           = false
 local SPEED_HACK_DURATION  = 6
-local FAMILY_BOOST         = true
+local FAMILY_BOOST         = false
 local FAMILY_BOOST_SIZE    = 50
 
 if SPEED_HACK then mod:overrideAsset({ Id = "DEFAULT_BALANCING", DayDurationInSeconds = SPEED_HACK_DURATION }) end
